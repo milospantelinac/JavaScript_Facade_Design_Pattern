@@ -44,7 +44,6 @@ var Hipoteka = function (ime) {
 }
 
 Hipoteka.prototype = {
-
     prijava: function (iznos) {
         // pozivanje podsistema...
         var rezultat = "odobren";
