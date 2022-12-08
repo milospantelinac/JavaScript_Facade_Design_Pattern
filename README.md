@@ -8,7 +8,7 @@ Cilj fasade je pružiti high-level interfejs (svojstva i metode) koje čini pods
 
 Na serveru, u višeslojnoj web aplikaciji često imate prezentacijski sloj koji je klijent servis sloju (kako bi vam bolje približio ovo je MVC arhitektura). Komunikacija između ova dva sloja odvija se preko dobro definisanih API-ja. Ovaj API, ili fasada, skriva složenost poslovne logike i njihove interakcije od prezentacijskog sloja. 
 
-Drugi primer u kojem se fasade koriste je refaktorisanje. Pretpostavimo da imate zbunjujući ili neuredan skup nasleđenih objekata (poznato kao i **Legacy Code**) zbog kojih klijent ne bi trebao biti zabrinut. Ovaj kod možete sakriti iza fasade. Fasada expozuje samo ono što je neophodno i predstavlja čistiji i jednostavan kod za korištenje.
+Drugi primer u gde se fasade koristi je refaktorisanje. Pretpostavimo da imate zbunjujući ili neuredan skup nasleđenih objekata (poznato kao i **Legacy Code**) zbog kojih klijent ne bi trebao biti zabrinut. Ovaj kod možete sakriti iza fasade. Fasada expozuje samo ono što je neophodno i predstavlja čistiji i jednostavan kod za korištenje.
 
 Fasade se često kombinuju s drugim dizajn paternima. Same fasade često se izvode kao singleton factories.
 
