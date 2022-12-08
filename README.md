@@ -14,7 +14,7 @@ Fasade se često kombinuju s drugim dizajn paternima. Same fasade često se izvo
 
 ## Diagram
 
-<img width="450" alt="facade_diagram" src="https://user-images.githubusercontent.com/21141150/206467227-1859aee6-464a-4944-bb70-7dc3e9f857c2.png">
+<img width="450" alt="facade_diagram" target="_blank" src="https://user-images.githubusercontent.com/21141150/206467227-1859aee6-464a-4944-bb70-7dc3e9f857c2.png">
 
 ## Učesnici
 
