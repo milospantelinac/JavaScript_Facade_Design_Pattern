@@ -32,7 +32,7 @@ Podsistem -- U primeru: Banka, Kredit, Prošlost
 
 U primeru **Hipoteka** objekat je fasada. Klijentu expozuje jednostavan interfejs sa samo jednom metodom: **prijava**. Ispod ovog jednostavnog API-ja leži znatna složenost.
 
-Ime i Prezime podnosioca prijave prosljeđuje se u funkciju konstruktora hipoteke, ako ne znate sta je funkcijski konstruktor više o tome možete pročitati [ovde](https://github.com/milospantelinac/Prototype_JavaScript){:target="_blank"}. Zatim se poziva metoda **prijava** sa traženim iznosom kredita. Interno, ova metoda koristi servise iz 3 odvojena podsistema koji su složeni i za njihovu obradu je potrebno neko vreme; to su banka, kredit i prošlost (ovo se odnosi na kriminalnu prošlost).
+Ime i Prezime podnosioca prijave prosljeđuje se u funkciju konstruktora hipoteke, ako ne znate sta je funkcijski konstruktor više o tome možete pročitati [demo](https://example.com){:target="_blank"} [ovde](https://github.com/milospantelinac/Prototype_JavaScript){:target="_blank"}. Zatim se poziva metoda **prijava** sa traženim iznosom kredita. Interno, ova metoda koristi servise iz 3 odvojena podsistema koji su složeni i za njihovu obradu je potrebno neko vreme; to su banka, kredit i prošlost (ovo se odnosi na kriminalnu prošlost).
 
 Na osnovu nekoliko kriterijuma (bankovni izvodi, kreditni izveštaj i kriminalna prošlost) podnosiocu zahteva se ili prihvata ili odbija traženi kredit.
 
